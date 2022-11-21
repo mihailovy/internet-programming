@@ -1,0 +1,149 @@
+/* Селектор на HTML елемент*/
+body{
+  margin:0px;
+}
+header {
+   background: #CECECE url('../images/bat.jpg') repeat-x center;
+
+}
+header h1{
+  color: yellow;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+h1 {
+  text-align: center;
+} 
+h2 {
+  color: blue;
+}
+p {
+  font-size: 14px;
+  text-indent: 30px;
+  /* border: 1px solid #CCCCCC; */ 
+}
+p a {
+  text-transform: uppercase;
+}
+
+/* Селектор по име на клас */
+.user {
+  text-transform: uppercase;
+}
+
+/* Селектор по HTML елемент и име на клас */
+h2.user {
+  background-color: yellow;
+}
+
+/* Селектор по ID на елемент*/
+#user-submit {
+  color: white;
+  background-color: green;
+}
+
+/* Селектор по клас и вътрешен за класа HTML елемент */
+#content p {
+	font-size: 30px;
+}
+#content p a {
+	background-color: gray;
+}
+
+a.continent{
+  color: green;
+}
+
+/* Селектор по клас и вътрешенн елемент p и a tag, който е от определен клас */
+#content p a.continent {
+	color: red;
+}
+#content p a.continent {
+	color: cyan;
+}
+
+#content img {
+	width: 100px;
+	height: auto;
+}
+
+/* Селектор по HTML елемент и име на клас */
+h2.user {
+  background-color: yellow;
+}
+
+/* Селектор по HTML и елемент в него, който е от клас user */
+h2 .user {
+  background-color: red;
+}
+
+header ul {
+  list-style-type: none;
+  width:100%;
+  height: 30px;
+}
+header ul li {
+  float: left;
+  margin-right: 15px;
+  
+}
+
+#circle {
+  visibility: hidden;
+  display:none;
+  width: 50px;
+  height: 50px;
+  /* background: url('../images/bat.jpg') no-repeat; */
+  background-size: 30%;
+  background-position: top;
+  
+  border: 5px dashed red;
+  border-radius:30px;
+  padding: 0px;
+  margin: 40px;
+  overflow: hidden;
+}
+/* begin: Contact form */
+
+#contact-form {
+  display: none;
+  position: fixed;
+  top: 30px;
+  left: 350px;
+  border: 2px solid green;
+  background-color: grey;
+  padding: 7px;
+  border-radius: 10px 20px 30px 40px;
+}
+#contact-form h2 {
+  color: rgb(153, 0, 0); /* Red - 99, Green - 00, Blue - 00 */
+}
+
+#contact-form input[type='submit'] {
+  background-color: #661a00;
+  color: #FFFFFF; /* White */
+  border-radius: 15px;
+  padding: 7px;
+}
+#contact-form td {
+  color: #FFFFFF;
+}
+
+/*
+#contact-form input[type='text'] {
+	background-color: #f7ffe6;
+}
+#contact-form textarea {
+	background-color:  #f7ffe6;
+}
+*/
+
+/* групиране на селектори - за предпочитане, когато поменяте атрибури заедно */
+#contact-form input[type='text'],
+#contact-form textarea {
+	background-color: #f7ffe6;
+}
+
+/* end: Contact form */
+
+

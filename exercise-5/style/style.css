@@ -1,0 +1,94 @@
+/* Селектор на HTML елемент*/
+
+input {
+  background-color: red;
+}
+
+
+h1 {
+  color: orange;
+  text-align: center;
+} 
+h2 {
+  color: blue;
+}
+p {
+  font-size: 14px;
+  text-indent: 30px;
+  /* border: 1px solid #CCCCCC; */ 
+}
+p a {
+  text-transform: uppercase;
+}
+p>a{
+ color: green;
+}
+
+/* Селектор по име на клас */
+.user {
+  text-transform: uppercase;
+}
+
+/* Селектор по HTML елемент и име на клас
+ * <h2 class="user><h2> */
+h2.user {
+  background-color: yellow;
+}
+
+/* Селектор по HTML и елемент в него, който е от клас user 
+ * 
+<h2> 
+  <p class="user"></p>
+</h2> */
+h2 .user {
+  background-color: red;
+}
+
+/* Селектор по ID на елемент*/
+#user-submit {
+  color: white;
+  background-color: green;
+}
+
+/* Селектор по клас и вътрешен за класа HTML елемент */
+#content p {
+	font-size: 30px;
+}
+#content p a {
+	background-color: gray;
+}
+
+a.continent{
+  color: green;
+}
+
+/* Селектор по клас и вътрешенн елемент p и a tag, който е от определен клас */
+#content p a.continent {
+	color: red;
+}
+#content p a.continent {
+	color: cyan;
+}
+
+#content img {
+	width: 300px;
+	border: 3px solid green;
+	padding: 50px;
+	padding-top: 30px;
+	margin: 10px;
+	margin-bottom: 100px;
+}
+
+
+
+header ul {
+  list-style-type: none;
+  width:100%;
+  height: 30px;
+}
+header ul li {
+  float: left;
+  margin-right: 15px;
+}
+
+

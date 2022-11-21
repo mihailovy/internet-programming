@@ -1,0 +1,112 @@
+<html>
+  <head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>Прилепите в България</title>
+	<link href="style/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <!-- Начало на body секция -->
+  
+  <body>
+  	<div id="contact-form">
+		<form method="post" name="contactForm">
+			<table>
+				<tr>
+					<td colspan="2">
+						<h2>За контакти</h2>
+					</td>
+				</tr>
+				<tr>
+					<td>Име и фамилия:</td>
+					<td>
+						<input type="text" name="fullname" value=""/>
+					</td>
+				</tr>
+				<tr>
+					<td>Относно:</td>
+					<td>
+						<textarea  name="about"></textarea>
+					</td>
+			    </tr>
+				<tr>
+					<td colspan="2">
+					<input type="submit" value="Изпрати" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<a>
+		<div id="circle"
+         onclick="document.getElementById('circle').style.backgroundColor='red';">
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    </div>
+	</a>
+	<header>
+		<h1>Прилепите в България</h1>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">Начало</a>
+				</li>
+				<li>
+					<a href="myths-and-legends.html">Митове и легенди</a>
+				</li>
+				<li>
+					<a href="about-bats.html">Какво знаем за прилепите?</a>
+				</li>
+				<li>
+          <a href="#" onclick="document.getElementById('contact-form').style.display='block';">За контакти</a>
+        </li>
+			</ul>
+		</nav>
+	</header>
+	<div id="content">
+		
+		<p><img src="images/bat.jpg"></p>
+		
+		<p>Прилепите са една от най-широко разпространените групи бозайници. Способността да летят е спомогнала на "разселването им" в различни части на планетата.
+		</p>
+		<p>Те обитават всички континенти с изключение на Антарктида, най-северните части на Европа, Азия и Америка и някои отдалечени острови. Прилепите са се приспособили към най-разнообразен начин на живот и заемат изключително разнообразни екологични ниши.</a>
+		</p>
+		<p>Странният вид и потайният начин на живот на прилепите, както и това, че се ориентират в тъмното винаги е привличало вниманието на хората. В някои култури прилепите са били обожествявани, докато в християнската култура например, демоните са били изобразявани с прилепски крила (за разлика от ангелите, които са рисувани с крила на птица). Това вероятно е продиктувано от инстинктивния страх от неизвестното, от нощта, от странния вид и потаен живот на прилепите.</a>
+		</p>
+	</div>
+    <footer>
+		<div id="user-functions">
+			<h2 class="user">Вход</h2>
+			<form class="user" method="post" name="loginForm" action="login.php">
+				Email: <input type="text" name="email" value=""/>
+				<br/>
+				Paasword: <input type="password" name="password" value=""/>
+				<br/>
+				<input id="user-submit" type="submit" name="login" value="Вход"/>
+			</form>
+				
+			<h2 class="user">Регистрация</h2>
+			<form class="user" method="post" name="registerForm">
+				Име: <input type="text" name="firstname" value=""/>
+				<br/>
+				Фамилия: <input type="text" name="family" value=""/>
+				<br/>
+				Email: <input type="text" name="email" value=""/>
+				<br/>
+				Password: <input type="password" name="password" value=""/>
+				<br/>
+				Пол: 
+				<select name="gender">
+					<option value="m">M</option>
+					<option value="f">Ж</option>
+					<option value="o">Друг</option>
+				</select>
+				<br>
+				<input type="submit" name="register" value="Регистрирай ме"/>
+			</form>
+		</div>
+		
+		<p>Copyright 2032</p>
+		
+    </footer>
+  </body>
+</html>
+
